@@ -603,3 +603,18 @@ console.error: BackgroundUpdate:
 1627293809446	Marionette	INFO	Listening on port 55858
 1627293809511	Marionette	WARN	TLS certificate errors will be ignored for this session
 1627293814046	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Child 9031, MediaDecoderStateMachine #1] WARNING: 12b68f500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 9031, MediaDecoderStateMachine #1] WARNING: 12b68f500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1627293831580	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+GeckoDriver.prototype.minimizeWindow@chrome://marionette/content/driver.js:2406:11
+1627293832113	geckodriver	INFO	Listening on 127.0.0.1:56039
+1627293833139	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mw/9pmsvzpd4vz0988l1n1c6q4w0000gn/T/rust_mozprofile10EiXB"
+1627293833542	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/mw/9pmsvzpd4vz0988l1n1c6q4w0000gn/T/rust_mozprofile10EiXB/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627293835394	Marionette	INFO	Listening on port 56054
+1627293835440	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627293839391	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
