@@ -637,3 +637,13 @@ TimedPromise/<@chrome://marionette/content/sync.js:237:19
 TimedPromise@chrome://marionette/content/sync.js:222:10
 GeckoDriver.prototype.minimizeWindow@chrome://marionette/content/driver.js:2406:11
 [Child 9068, MediaDecoderStateMachine #1] WARNING: 12492d500 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 9031, MediaDecoderStateMachine #1] WARNING: 138d54300 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 9031, MediaDecoderStateMachine #1] WARNING: 138d54300 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 9046, MediaDecoderStateMachine #1] WARNING: 11ee27400 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627294015739	Marionette	INFO	Stopped listening on port 55858
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
